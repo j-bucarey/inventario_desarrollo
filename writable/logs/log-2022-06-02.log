@@ -1,0 +1,6 @@
+CRITICAL - 2022-06-02 18:01:22 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/vela/Documentos/inventario_desarrollo/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/vela/Documentos/inventario_desarrollo/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/vela/Documentos/inventario_desarrollo/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /home/vela/Documentos/inventario_desarrollo/spark(45): require('/home/vela/Docu...')
+#4 {main}
