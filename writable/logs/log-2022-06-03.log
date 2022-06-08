@@ -1,0 +1,74 @@
+CRITICAL - 2022-06-03 20:56:53 --> Invalid file: barra.html
+#0 C:\Xamp\htdocs\Inventario\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barra.html')
+#1 C:\Xamp\htdocs\Inventario\system\Common.php(1089): CodeIgniter\View\View->render('barra.html', Array, true)
+#2 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(10): view('barra.html')
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#4 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 20:59:41 -->  route cannot be found while reverse-routing.
+#0 C:\Xamp\htdocs\Inventario\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\Xamp\htdocs\Inventario\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(10): redirect('../../barra.htm...', 'refresh')
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#4 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 21:03:24 --> Undefined variable: view
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Xamp\\htdocs\\...', 11, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:03:49 --> Undefined variable: view
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Xamp\\htdocs\\...', 11, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:05:45 --> Undefined property: App\Controllers\ProfileController::$load
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 12, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:07:53 --> Undefined property: App\Controllers\ProfileController::$load
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 12, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:08:46 --> Undefined property: App\Controllers\ProfileController::$data
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 12, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:09:31 --> Undefined property: App\Controllers\ProfileController::$load
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 14, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:11:46 --> Undefined property: App\Controllers\ProfileController::$load
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 14, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:11:51 --> Undefined property: App\Controllers\ProfileController::$load
+#0 C:\Xamp\htdocs\Inventario\app\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Xamp\\htdocs\\...', 14, Array)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\ProfileController->index()
+#2 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
