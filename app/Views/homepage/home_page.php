@@ -10,7 +10,7 @@
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="/public/index.css" rel="stylesheet" type="text/css">
-    <title>Banca en linea</title>
+    <title>Inventario</title>
   </head>
   <body>
    
@@ -26,7 +26,7 @@
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
      
       <div class="info">
-        <a href="#" class="d-block">Nombre Usuario</a>
+        <a href="#" class="d-block">Usuario</a>
       </div>
     </div>
 
@@ -39,7 +39,7 @@
           <a href="#" class="nav-link active">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
-              Bodega
+              Gestion de Bodega
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
@@ -49,6 +49,39 @@
               <a href="#" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Productos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Gestion de Proyectos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Herramientas</p>
+              </a>
+            </li>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Cerrar Sesion</p>
               </a>
             </li>
           </ul>
