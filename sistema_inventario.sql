@@ -7,6 +7,21 @@
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 7.4.28
 
+
+create database if not exists sistema_inventario; 
+use sistema_inventario;
+
+drop TABLE if exists estado_proyecto;
+drop TABLE if exists proyecto;
+drop TABLE if exists productoproyecto;
+drop TABLE if exists producto;
+drop TABLE if exists bodega_producto;
+drop TABLE if exists herramienta;
+drop TABLE if exists herramienta;
+drop TABLE if exists tipo_usuario;
+drop TABLE if exists usuario;
+
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
