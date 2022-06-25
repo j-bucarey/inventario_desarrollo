@@ -24,8 +24,8 @@ class SigninController extends Controller
             $pass = $data['password'];
             echo $pass;
             echo $password;
-/*             $authenticatePassword = password_verify($password, $pass);
- */            if($pass==$password){
+           // $authenticatePassword = password_verify($password, $pass);
+             if($pass==$password){
                 $ses_data = [
                     'id' => $data['id'],
                     'nombre' => $data['nombre'],
@@ -43,5 +43,9 @@ class SigninController extends Controller
             $session->setFlashdata('msg', 'Email does not exist.');
             return redirect()->to('/signin');
         }
+
     }
+
+
+
 }
