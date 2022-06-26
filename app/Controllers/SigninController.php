@@ -46,6 +46,11 @@ class SigninController extends Controller
 
     }
 
-
+    // Ricardo
+    public function salir(){
+        $session = session();
+        $session->destroy();
+        return redirect()->to(base_url('/'));
+    }
 
 }

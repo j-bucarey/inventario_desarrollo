@@ -81,7 +81,8 @@
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Cerrar Sesion</p>
+                <!-- ricardo -->
+                <a class="nav-link" href="<?php echo base_url('/salir') ?>">Cerrar sesión <span class="sr-only">(current)</span></a>
               </a>
             </li>
           </ul>
