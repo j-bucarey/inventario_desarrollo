@@ -34,6 +34,11 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 // Ricardo
 $routes->get('/salir', 'Home::index');
+
+// Registro
+$routes->add('/registro', 'registrarController::registro');
+
+
 /* $routes->get('/', 'SignupController::index'); */
 $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);

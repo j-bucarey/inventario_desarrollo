@@ -68,9 +68,9 @@
 
 
                                             </form>
-                                                <!-- ricardo -->
+                                                <!-- ricardo pendiente dirección a la página regsitro -->
                                             <div class="form-group text-center my-3">
-                                                <input type="submit" name="submit" action="<?php echo base_url(); ?> /" class="btn btn-success btn-lg btn-block" value="Crear cuenta nueva">
+                                                <input type="submit" name="submit" action="<?php echo base_url(); ?> /registro.php/registrarController" class="btn btn-success btn-lg btn-block" value="Crear cuenta nueva">
                                             </div>
 
                                 </div>
