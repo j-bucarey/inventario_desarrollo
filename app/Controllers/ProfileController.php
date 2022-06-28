@@ -15,5 +15,12 @@ class ProfileController extends Controller
     //    return redirect()->to("/")->with('message','Bienvenido' .$session->username);
     echo view('/homepage/home_page');
     //     echo "Hello : ".$session->get('nombre');
+   
+    echo view('/homepage/header');
+
+    echo view('/homepage/home_page');
+
+    echo view('/homepage/footer');
+
     }
 }

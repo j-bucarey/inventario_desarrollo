@@ -7,7 +7,7 @@ class registrarController extends Controller{
 
     public function registro(){
 
-        echo view('Registro/registro');
+        echo view('/Registro/registro');
 
     }
 
