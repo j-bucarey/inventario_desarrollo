@@ -1,4 +1,3 @@
-<p style="padding-left: 400px;">Productos</p>
 
 </section>
 
