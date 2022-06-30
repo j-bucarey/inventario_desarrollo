@@ -7,11 +7,11 @@ class herramientasController extends Controller{
 
     public function herramientas(){
 
-        echo view('/Herramientas/start_aside_herramient');
+        echo view('/homepage/start_aside');
 
         echo view('/Herramientas/herramientas');
 
-        echo view('/Herramientas/end_aside_herramient');
+        echo view('/homepage/end_aside');
 
     }
 

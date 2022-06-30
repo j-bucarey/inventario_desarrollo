@@ -14,11 +14,11 @@ class productoController extends Controller{
 
         /* echo json_encode($data); */
 
-        echo view('/Productos/start_aside');
+        echo view('/homepage/start_aside');
 
         echo view('/Productos/productos',$data);
 
-        echo view('/Productos/end_aside'); 
+        echo view('/homepage/end_aside'); 
 
     }
 
