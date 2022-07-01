@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -68,8 +68,10 @@
 
 
                                             </form>
-                                    
-
+                                                <!-- ricardo -->
+                                            <div class="form-group text-center my-3">
+                                                <input type="submit" name="submit" action="<?php echo base_url(); ?> /" class="btn btn-success btn-lg btn-block" value="Crear cuenta nueva">
+                                            </div>
 
                                 </div>
                             </div>

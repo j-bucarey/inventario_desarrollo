@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('login/login');
+        // Preventivo solamente para crear proyecto , 
+        // return view('login/login');
+
+        return view ('proyecto/listar');
     }
 }
