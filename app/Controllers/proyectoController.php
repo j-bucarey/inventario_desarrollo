@@ -7,7 +7,7 @@ class proyectoController extends Controller{
 
     public function proyectos(){
 
-        echo view('/homepage/start_aside');
+        echo view('/homepage/new_start_aside');
 
         echo view('/Proyectos/proyectos');
 

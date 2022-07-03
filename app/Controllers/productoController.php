@@ -14,7 +14,7 @@ class productoController extends Controller{
 
         /* echo json_encode($data); */
 
-        echo view('/homepage/start_aside');
+        echo view('/homepage/new_start_aside');
 
         echo view('/Productos/productos',$data);
 

@@ -7,7 +7,7 @@ class bodegaController extends Controller{
 
     public function bodega(){
 
-        echo view('/homepage/start_aside');
+        echo view('/homepage/new_start_aside');
 
         echo view('/Bodega/bodega');
 
