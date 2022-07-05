@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-01 22:49:20 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}
+CRITICAL - 2022-07-01 22:51:36 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}
+CRITICAL - 2022-07-01 23:03:48 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}

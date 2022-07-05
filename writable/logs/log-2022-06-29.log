@@ -1,0 +1,77 @@
+CRITICAL - 2022-06-29 12:18:58 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 12:18:59 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-29 12:28:50 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\productos.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(19): view('/Productos/prod...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 12:29:15 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\productos.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(19): view('/Productos/prod...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 12:30:36 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\productos.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(19): view('/Productos/prod...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 12:31:12 --> Array to string conversion
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\productos.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(19): view('/Productos/prod...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-29 12:32:36 --> Undefined constant "id"
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(19): view('/Productos/prod...', Array)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-29 12:37:45 --> Invalid file: /Proyectos/start_aside_proyect.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Proyectos/star...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Proyectos/star...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\proyectoController.php(10): view('/Proyectos/star...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\proyectoController->proyectos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
