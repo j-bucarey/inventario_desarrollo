@@ -1,0 +1,22 @@
+CRITICAL - 2022-07-05 12:08:52 --> Undefined variable: totalTime
+#0 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar.php(501): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\laragon\www\inventario_desarrollo-main\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\laragon\www\inventario_desarrollo-main\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\laragon\www\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-05 12:31:29 --> Error connecting to the database: Unknown database 'sistema_inventario'
+CRITICAL - 2022-07-05 12:31:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sistema_inventario'
+#0 C:\laragon\www\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\inventario_desarrollo-main\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\inventario_desarrollo-main\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\inventario_desarrollo-main\app\Controllers\SigninController.php(21): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#6 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
