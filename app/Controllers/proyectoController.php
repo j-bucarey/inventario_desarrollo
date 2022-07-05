@@ -11,6 +11,8 @@ class proyectoController extends Controller{
 
         echo view('/Proyectos/proyectos');
 
+        echo view('Proyectos/crud_proyectos');
+
         echo view('/homepage/end_aside');
 
     }

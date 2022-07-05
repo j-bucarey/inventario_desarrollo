@@ -1,0 +1,36 @@
+CRITICAL - 2022-07-05 07:15:16 --> Invalid file: Productos/crud_prductos.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/crud_...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(21): view('Productos/crud_...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 07:15:21 --> Invalid file: Productos/crud_prductos.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/crud_...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(21): view('Productos/crud_...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 07:15:25 --> Invalid file: Productos/crud_prductos.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/crud_...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(21): view('Productos/crud_...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 07:17:27 --> Invalid file: Proyecto/crud_proyectos.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Proyecto/crud_p...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Proyecto/crud_p...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\proyectoController.php(14): view('Proyecto/crud_p...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\proyectoController->proyectos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

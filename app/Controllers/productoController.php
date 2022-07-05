@@ -18,6 +18,8 @@ class productoController extends Controller{
 
         echo view('/Productos/productos',$data);
 
+        echo view('Productos/crud_productos');
+
         echo view('/homepage/end_aside'); 
 
     }

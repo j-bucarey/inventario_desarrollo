@@ -11,6 +11,8 @@ class herramientasController extends Controller{
 
         echo view('/Herramientas/herramientas');
 
+        echo view('/Herramientas/crud_herramientas');
+
         echo view('/homepage/end_aside');
 
     }
