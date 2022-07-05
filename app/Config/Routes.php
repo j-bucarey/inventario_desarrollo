@@ -34,6 +34,26 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 // Ricardo
 $routes->get('/salir', 'Home::index');
+
+//Usuario
+$routes->add('/','/home::index');
+
+// Registro
+$routes->add('/registro', 'registrarController::registro');
+
+// home_page
+
+//Registro
+
+//Bodega
+$routes->add('/bodega', 'bodegaController::bodega');
+//Productos
+$routes->add('/productos', 'productoController::productos');
+//Proyectos
+$routes->add('/proyectos', 'proyectoController::proyectos');
+//Herramientas
+$routes->add('/herramientas', 'herramientasController::herramientas');
+
 /* $routes->get('/', 'SignupController::index'); */
 $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);

@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 CRITICAL - 2022-07-01 02:56:12 --> The framework needs the following extension(s) installed and loaded: intl.
 #0 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
 #1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
 #2 C:\xampp\htdocs\inventario_desarrollo-main\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
 #3 C:\xampp\htdocs\inventario_desarrollo-main\index.php(28): require('C:\\xampp\\htdocs...')
 #4 {main}
+=======
+CRITICAL - 2022-07-01 22:49:20 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}
+CRITICAL - 2022-07-01 22:51:36 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}
+CRITICAL - 2022-07-01 23:03:48 --> Call to undefined method CodeIgniter\CodeIgniter::setContext()
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Commands\Server\rewrite.php(43): require_once()
+#1 {main}
+>>>>>>> 67d8a7b66a39fe11c8b7d188ab2bf6e89c98f086

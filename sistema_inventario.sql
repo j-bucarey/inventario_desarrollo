@@ -294,7 +294,7 @@ ALTER TABLE `herramienta`
 
 --
 -- Filtros para la tabla `producto`
---
+--Cambiar relación FK bodega_producto a producto
 ALTER TABLE `producto`
   ADD CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`id`) REFERENCES `bodega_producto` (`codigo_producto`) ON DELETE CASCADE ON UPDATE CASCADE;
 
