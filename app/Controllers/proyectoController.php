@@ -1,17 +1,18 @@
-<?php namespace App\Controllers;
+<?php 
+namespace App\Controllers;  
+use CodeIgniter\Controller;
+use App\Models\UserModel;
+class proyectoController extends Controller{
+    public function proyectos(){
+        echo view('/homepage/new_start_aside');
 
-use CodeIgniter\Controllers;
-use App\Models\Proyecto;
+        echo view('/Proyectos/proyectos');
 
-class ProyectoController extends Controller
-{
-    public fuction index()
-    {
-        $userModel=new UserModel($db);
+        echo view('Proyectos/crud_proyectos');
 
-       
+        echo view('/homepage/end_aside');
 
-        
     }
 
 }
+?>
