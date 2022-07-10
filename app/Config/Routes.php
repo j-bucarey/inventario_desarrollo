@@ -40,6 +40,16 @@ $routes->get('crear', 'productoController::crear');
 $routes->post('guardar', 'productoController::guardar');
 //Eliminar
 $routes->get('borrar/(:num)', 'productoController::borrar/$1');
+
+
+// Crear
+$routes->get('crearHerr', 'herramientasController::crearHerr');
+// Guardar
+$routes->post('guardarH', 'herramientasController::guardarH');
+//Eliminar
+$routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
+
+
 //Usuario
 $routes->add('/','/home::index');
 

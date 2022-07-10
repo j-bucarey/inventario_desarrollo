@@ -17,10 +17,10 @@
         <?php foreach($productos as $producto): ?>
 
         <tr class="fila">
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$producto['id'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera2" contenteditable="true"><?=$producto['nombre'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$producto['stock'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$producto['codigo'];?></td>
+                <td class="borde1 espacio05" title="cabecera1" contenteditable="true"><?=$producto['id'];?></td>
+                <td class="borde1 espacio05" title="cabecera2" contenteditable="true"><?=$producto['nombre'];?></td>
+                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['stock'];?></td>
+                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['codigo'];?></td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
             <a href="#" class="btn btn-info">Editar</a>
             <a href="<?=base_url('borrar/'.$producto['id']);?>" class="btn btn-danger">Eliminar</a>

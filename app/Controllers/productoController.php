@@ -12,10 +12,6 @@ class productoController extends Controller{
         $producto = new Producto();
         $data['productos'] = $producto->orderBy('id', 'ASC')->findAll();
 
-        // $model = model(Productos::class);
-        // $data['productos'] = $model->getProductos();
-
-        /* echo json_encode($data); */
 
         echo view('/homepage/new_start_aside');
 
@@ -31,23 +27,22 @@ class productoController extends Controller{
         return view('Productos/crear');
     }
 
-    // public function guardar(){
+     public function guardar(){
 
-    //     $producto= new Producto();
+         $producto= new Producto();
 
-    //     if($stock=$this->request->getVar('stock')){
-    //         $nuevoNombre= $stock->getRandomName();
-    //         $stock->move('../public/uploads/', $nuevoNombre);
+         
             
-    //         $data=[
-    //             'nombre'=>$this->request->getVar('nombre'),
-    //             'stock'=>$this->request->getVar('stock'),
-    //             'codigo'=>$nuevoNombre
-    //         ];
-    //     }
+             $data=[
+                 'nombre'=>$this->request->getPost('nombre'),
+                 'stock'=>$this->request->getPost('stock'),
+                 'codigo'=>$this->request->getPost('codigo')
+             ];
 
-    //     echo "Ingresado a la Base de Datos";
-    // }
+             $producto->insert($data);
+
+         return $this->response->redirect(site_url('productos'));
+     }
 
     public function borrar($id=null){
 
@@ -57,6 +52,9 @@ class productoController extends Controller{
         $producto->where('id', $id)->delete($id);
 
         return $this->response->redirect(site_url('productos'));
-    }
 
+    }
 }
+
+?>
+
