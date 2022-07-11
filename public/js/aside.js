@@ -20,7 +20,6 @@ let arrow = document.querySelectorAll(".arrow");
       });
       $('.bx-menu').click(function(){
 
-        // 點選選單按鈕時，大螢幕為新增或移除.close，小螢幕新增或移除.small-screen預設有.close，
         if(document.body.clientWidth > 400){
           $('.sidebar').toggleClass('close');
         }else{
@@ -29,7 +28,6 @@ let arrow = document.querySelectorAll(".arrow");
       });
       
       function resizeScreen() {
-        // 大螢幕.sidebar預設為沒有.close，小螢幕.sidebar預設為有.close
         if(document.body.clientWidth < 400){
           $('.sidebar').addClass('close');
         }else{

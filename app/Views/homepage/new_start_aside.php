@@ -13,7 +13,7 @@
           <ul class="sub-menu blank">
             <li><a class="link_name" href="bodega">Gestion de Bodega</a></li>
           </ul>
-        </li>        
+        </li>
         <li>
           <a href="productos">
             <i class='bx bx-pie-chart-alt-2'></i>
@@ -40,10 +40,10 @@
           <ul class="sub-menu blank">
             <li><a class="link_name" href="#">Herramientas</a></li>
           </ul>
-        </li>        
+        </li>
         <li>
           <div class="profile-details">
-            <div class="profile-content"> 
+            <div class="profile-content">
             </div>
             <div class="name-job">
               <a class="profile_name" href="<?php echo base_url('/salir') ?>">Cerrar Sesión</a>
@@ -57,8 +57,3 @@
         <i class='bx bx-menu'></i>
         <span class="text">Usuario</span> <br />
       </div>
- 
-
-    
-
-  

@@ -26,4 +26,8 @@ class ProyectoModel extends Model
     protected $validationMesages = [];
     protected $skipValidation = false;
 
+    public function getProyecto(){
+        return $this->findAll();
+    }
+
 }

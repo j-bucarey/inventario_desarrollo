@@ -8,23 +8,23 @@
         <td class="borde1 espacio05" >opciones</td>
             </tr>
         </thead>
-        <!--<tfoot class="centrar-texto">
+        <!-- <tfoot class="centrar-texto">
             <tr class="fondo-ws">
                 <td class="borde1 espacio05">footer1</td>
                 <td class="borde1 espacio05">footer2</td>
                 <td class="borde1 espacio05">footer3</td>
         <td class="borde1 espacio05"></td>
             </tr>
-        </tfoot>-->
+        </tfoot> -->
         <tbody class="centrar-texto">
         <tr class="fila">
                 <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true">ingresa dato aqui</td>
                 <td class="borde1 espacio05" data-tipo="input" data-title="cabecera2" contenteditable="true">ingresa dato aqui</td>
                 <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">ingresa dato aqui</td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-            <a href="#" data-tipo="agregar">agregar fila</a>
+            <a href="#" data-tipo="agregar">agregar fila proyecto</a>
             </td>
-        <!--  <tr class="fila">
+         <!-- <tr class="fila">
                 <td class="borde1 espacio05" contenteditable="false" data-title="cabecera1">dato1.1</td>
                 <td class="borde1 espacio05" contenteditable="false" data-title="cabecera2">dato1.2</td>
                 <td class="borde1 espacio05" contenteditable="false" data-title="cabecera3">dato1.3</td>
@@ -32,7 +32,7 @@
             <a href="#" data-tipo="editar">editar fila</a>
             <br>
             <a href="#" data-tipo="borrar">borrar fila</a>
-            </td>-->
+            </td> -->
         </tbody>
     </table>
 

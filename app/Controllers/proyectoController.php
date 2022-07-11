@@ -1,11 +1,16 @@
 <?php 
-namespace App\Controllers;  
+namespace App\Controllers;
+
+use App\Models\ProyectoModel;
 use CodeIgniter\Controller;
 use App\Models\UserModel;
 
 class proyectoController extends Controller{
 
     public function proyectos(){
+
+    //     model = model(ProyectoModel::class);
+    // $data['proyectos'] = $model->getProyectos();
 
         echo view('/homepage/new_start_aside');
 
@@ -18,5 +23,6 @@ class proyectoController extends Controller{
     }
 
 }
+
 
 ?>
