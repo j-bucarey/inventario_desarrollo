@@ -1,38 +1,32 @@
 
+<a href="crear">Nuevo producto</a>
+
     <table class="no-table centrar">
         <thead>
             <tr class="centrar-texto fondo-ws">
-                <td class="borde1 espacio05" >cabecera1</td>
-                <td class="borde1 espacio05" >cabecera2</td>
-                <td class="borde1 espacio05" >cabecera3</td>
-        <td class="borde1 espacio05" >opciones</td>
+                <th class="borde1 espacio05" >#</th>
+                <th class="borde1 espacio05" >Nombre</th>
+                <th class="borde1 espacio05" >Stock</th>
+                <th class="borde1 espacio05" >Código</th>
+        <th class="borde1 espacio05" >opciones</th>
             </tr>
         </thead>
-        <!--<tfoot class="centrar-texto">
-            <tr class="fondo-ws">
-                <td class="borde1 espacio05">footer1</td>
-                <td class="borde1 espacio05">footer2</td>
-                <td class="borde1 espacio05">footer3</td>
-        <td class="borde1 espacio05"></td>
-            </tr>
-        </tfoot>-->
+
         <tbody class="centrar-texto">
+
+        <?php foreach($productos as $producto): ?>
+
         <tr class="fila">
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true">ingresa dato aqui</td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera2" contenteditable="true">ingresa dato aqui</td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">ingresa dato aqui</td>
+                <td class="borde1 espacio05" title="cabecera1" contenteditable="true"><?=$producto['id'];?></td>
+                <td class="borde1 espacio05" title="cabecera2" contenteditable="true"><?=$producto['nombre'];?></td>
+                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['stock'];?></td>
+                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['codigo'];?></td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-            <a href="#" data-tipo="agregar">agregar fila</a>
+            <a href="#" class="btn btn-info">Editar</a>
+            <a href="<?=base_url('borrar/'.$producto['id']);?>" class="btn btn-danger">Eliminar</a>
             </td>
-        <!--  <tr class="fila">
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera1">dato1.1</td>
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera2">dato1.2</td>
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera3">dato1.3</td>
-            <td class="borde1 espacio05" contenteditable="false" data-title="opciones">
-            <a href="#" data-tipo="editar">editar fila</a>
-            <br>
-            <a href="#" data-tipo="borrar">borrar fila</a>
-            </td>-->
+        </tr>
+        <?php endforeach; ?>
         </tbody>
     </table>
 

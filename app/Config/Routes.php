@@ -34,16 +34,27 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 // Ricardo
 $routes->get('/salir', 'Home::index');
+// Crear
+$routes->get('crear', 'productoController::crear');
+// Guardar
+$routes->post('guardar', 'productoController::guardar');
+//Eliminar
+$routes->get('borrar/(:num)', 'productoController::borrar/$1');
+
+
+// Crear
+$routes->get('crearHerr', 'herramientasController::crearHerr');
+// Guardar
+$routes->post('guardarH', 'herramientasController::guardarH');
+//Eliminar
+$routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
+
 
 //Usuario
 $routes->add('/','/home::index');
 
 // Registro
 $routes->add('/registro', 'registrarController::registro');
-
-// home_page
-
-//Registro
 
 //Bodega
 $routes->add('/bodega', 'bodegaController::bodega');

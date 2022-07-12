@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+CRITICAL - 2022-07-05 12:08:52 --> Undefined variable: totalTime
+#0 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar.php(501): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\inventario_desarrollo-main\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\laragon\www\inventario_desarrollo-main\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\laragon\www\inventario_desarrollo-main\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\laragon\www\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-05 12:31:29 --> Error connecting to the database: Unknown database 'sistema_inventario'
+CRITICAL - 2022-07-05 12:31:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'sistema_inventario'
+#0 C:\laragon\www\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\inventario_desarrollo-main\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\inventario_desarrollo-main\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\laragon\www\inventario_desarrollo-main\app\Controllers\SigninController.php(21): CodeIgniter\BaseModel->first()
+#5 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#6 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 C:\laragon\www\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+=======
 CRITICAL - 2022-07-05 07:15:16 --> Invalid file: Productos/crud_prductos.php
 #0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/crud_...')
 #1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
@@ -31,6 +55,250 @@ CRITICAL - 2022-07-05 07:17:27 --> Invalid file: Proyecto/crud_proyectos.php
 #2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\proyectoController.php(14): view('Proyecto/crud_p...')
 #3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\proyectoController->proyectos()
 #4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+<<<<<<< HEAD
+CRITICAL - 2022-07-05 15:04:08 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(21): view('Productos/crud_...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 15:27:38 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-05 15:30:37 --> Undefined variable $prductos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 15:30:46 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 15:30:47 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 15:31:58 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 15:34:50 --> Table 'sistema_inventario.productos' doesn't exist
+CRITICAL - 2022-07-05 15:34:50 --> Table 'sistema_inventario.productos' doesn't exist
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(13): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#8 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#9 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-05 15:41:38 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 15:44:37 --> Undefined variable $producto
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 15:45:45 --> Undefined array key "id"
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 15:45:51 --> Undefined array key "id"
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(24): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 19:39:13 --> Call to a member function getRandomName() on string
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->guardar()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+=======
+>>>>>>> 67d8a7b66a39fe11c8b7d188ab2bf6e89c98f086
+>>>>>>> 8fb7e759838ffaed9630e0c0f3e837f4b131421f
+CRITICAL - 2022-07-05 20:10:49 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-05 20:24:01 --> Error connecting to the database: Unknown database 'inventario_desarrollo-main'
+CRITICAL - 2022-07-05 20:24:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'inventario_desarrollo-main'
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 20:24:16 --> Error connecting to the database: Unknown database 'inventario_desarrollo-main'
+CRITICAL - 2022-07-05 20:24:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'inventario_desarrollo-main'
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 20:25:03 --> Error connecting to the database: Unknown database 'inventario_desarrollo-main'
+CRITICAL - 2022-07-05 20:25:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'inventario_desarrollo-main'
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(13): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->productos()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 21:00:29 --> Error connecting to the database: Unknown database 'inventario_desarrollo-main'
+CRITICAL - 2022-07-05 21:00:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'inventario_desarrollo-main'
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\SigninController.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 21:04:05 --> Error connecting to the database: Unknown database 'inventario_desarrollo-main'
+CRITICAL - 2022-07-05 21:04:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'inventario_desarrollo-main'
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\SigninController.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\SigninController->loginAuth()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-05 21:06:10 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 21:06:19 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 21:12:50 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 21:14:03 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 21:14:44 --> syntax error, unexpected identifier "index", expecting variable
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
 #5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
