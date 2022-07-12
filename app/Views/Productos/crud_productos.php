@@ -1,5 +1,5 @@
 
-<a href="crear">Nuevo producto</a>
+<a href="crear"class="btn btn-success">Nuevo producto</a>
 
     <table class="no-table centrar">
         <thead>

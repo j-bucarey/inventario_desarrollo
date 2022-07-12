@@ -34,14 +34,22 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 // Ricardo
 $routes->get('/salir', 'Home::index');
+
+// Rutas Tabla Producto
+
+$routes->add('/productos', 'productoController::productos');
 // Crear
 $routes->get('crear', 'productoController::crear');
 // Guardar
 $routes->post('guardar', 'productoController::guardar');
 //Eliminar
 $routes->get('borrar/(:num)', 'productoController::borrar/$1');
+//Editar
 
 
+//Rutas Tabla Herramienta
+
+$routes->add('/herramientas', 'herramientasController::herramientas');
 // Crear
 $routes->get('crearHerr', 'herramientasController::crearHerr');
 // Guardar
@@ -49,21 +57,40 @@ $routes->post('guardarH', 'herramientasController::guardarH');
 //Eliminar
 $routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
 
-
+//Ruta Usuario
 //Usuario
 $routes->add('/','/home::index');
 
 // Registro
 $routes->add('/registro', 'registrarController::registro');
 
+
+//Rutas Tabla Bodega
 //Bodega
 $routes->add('/bodega', 'bodegaController::bodega');
-//Productos
-$routes->add('/productos', 'productoController::productos');
+//Crear
+$routes->get('crear_bodega', 'herramientasController::crear_bodega');
+//Guardar
+$routes->post('guardar_bodega', 'herramientasController::guardar_bodega');
+//Eliminar
+$routes->get('borrar_bodega/(:num)', 'herramientasController::borrar_bodega/$1');
+//Editar
+
+
+
 //Proyectos
 $routes->add('/proyectos', 'proyectoController::proyectos');
-//Herramientas
-$routes->add('/herramientas', 'herramientasController::herramientas');
+//Crear
+$routes->get('crear_proyectos', 'proyectoController::crear_proyectos');
+//Guardar
+$routes->post('guardar_proyecto', 'proyectoController::guardar_proyecto');
+//Eliminar
+$routes->get('borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
+//Editar
+$routes->get('editar_proyecto/(:num)', 'proyectoController::editar_proyecto/$1');
+
+
+
 
 /* $routes->get('/', 'SignupController::index'); */
 $routes->get('/signin', 'SigninController::index');

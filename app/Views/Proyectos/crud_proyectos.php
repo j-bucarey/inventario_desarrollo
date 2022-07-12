@@ -1,3 +1,5 @@
+<a href="crear_proyectos" class="btn btn-success">Crear Nuevo Proyecto</a>
+<br/>
 
     <table class="no-table centrar">
         <thead>
@@ -6,49 +8,32 @@
                 <td class="borde1 espacio05" >Nombre</td>
                 <td class="borde1 espacio05" >Fecha de inicio</td>
                 <td class="borde1 espacio05" >Fecha de entrega</td>
-                <td class="borde1 espacio05" >Código Estado</td>
-        <td class="borde1 espacio05" >opciones</td>
+              
+        <td class="borde1 espacio05" >Opciones</td>
             </tr>
         </thead>
-<<<<<<< HEAD
-        <!-- <tfoot class="centrar-texto">
-            <tr class="fondo-ws">
-                <td class="borde1 espacio05">footer1</td>
-                <td class="borde1 espacio05">footer2</td>
-                <td class="borde1 espacio05">footer3</td>
-        <td class="borde1 espacio05"></td>
-            </tr>
-        </tfoot> -->
-=======
-
-        
-
->>>>>>> 5fb230429c8753909c2464b5c5f26f962a93b246
         <tbody class="centrar-texto">
+
+        <?php foreach($proyectos as $proyecto): ?>
         <tr class="fila">
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['id'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera2" contenteditable="true"><?=$proyecto['nombre'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$proyecto['Fecha de inicio'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$proyecto['Fecha de entrega'];?></td>
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$proyecto['id'];?></td>
+                <td><?=$proyecto['id'];?></td>
+                <td><?=$proyecto['nombre_proyecto'];?></td>
+                <td><?=$proyecto['fecha_inicio'];?></td>
+                <td><?=$proyecto['fecha_entrega'];?></td>
+                 <!-- Falta agregar codigo_estado -->
+              
+                <td>
+
+                    <a href="<?=base_url('editar_proyecto/'.$proyecto['id']);?>" class="btn btn-warning" type="button">Editar</a>
+                    <a href="<?=base_url('borrar_proyecto/'.$proyecto['id']);?>" class="btn btn-danger" type="button">Borrar</a>
+
+               
+       
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-<<<<<<< HEAD
-            <a href="#" data-tipo="agregar">agregar fila proyecto</a>
+            
             </td>
-         <!-- <tr class="fila">
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera1">dato1.1</td>
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera2">dato1.2</td>
-                <td class="borde1 espacio05" contenteditable="false" data-title="cabecera3">dato1.3</td>
-            <td class="borde1 espacio05" contenteditable="false" data-title="opciones">
-            <a href="#" data-tipo="editar">editar fila</a>
-            <br>
-            <a href="#" data-tipo="borrar">borrar fila</a>
-            </td> -->
-=======
-            <a href="#" class="btn btn-info">Editar</a>
-            <a href="#" class="btn btn-danger">Eliminar</a>
-            </td>
->>>>>>> 5fb230429c8753909c2464b5c5f26f962a93b246
+
+        <?php endforeach; ?> 
         </tbody>
     </table>
 

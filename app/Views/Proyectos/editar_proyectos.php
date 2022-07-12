@@ -16,7 +16,7 @@
    
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Crear</title>
+  <title>Crear formulario</title>
 
   </head>
   
@@ -26,21 +26,22 @@
 
   <div class="card">
     <div class="card-body">
-        <h5 class="card-title">Formulario Herramienta</h5>
+        <h5 class="card-title">Ingresar datos del proyecto</h5>
         <p class="card-text">
 
-        <form method="post" action="<?=site_url('/guardarH')?>" enctype="multipart/form-data">
+        <form method="post" action="<?=site_url('/guardar_proyecto')?>" enctype="multipart/form-data">
+
     <div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input id="nombre" class="form-control" type="text" name="nombre">
+        <label for="nombre">Nombre del proyecto:</label>
+        <input id="nombre_proyecto" class="form-control" type="text" name="nombre_proyecto">
     </div>
     <div class="form-group">
-        <label for="codigo">Código:</label>
-        <input id="codigo" class="form-control" type="text" name="codigo">
+        <label for="codigo">Fecha de inicio</label>
+        <input id="fecha_inicio" class="form-control" type="date" name="fecha_inicio">
     </div>
     <div class="form-group">
-        <label for="stock">Stock:</label>
-        <input id="stock" class="form-control" type="text" name="stock">
+        <label for="stock">Fecha de entrega:</label>
+        <input id="fecha_entrega" class="form-control" type="date" name="fecha_entrega">
     </div>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
