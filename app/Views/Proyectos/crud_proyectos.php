@@ -19,11 +19,11 @@
         <?php foreach($proyectos as $proyecto): ?>
 
         <tr class="fila">
-                <td><?=$proyecto['id'];?></td>
-                <td><?=$proyecto['nombre_proyecto'];?></td>
-                <td><?=$proyecto['fecha_inicio'];?></td>
-                <td><?=$proyecto['fecha_entrega'];?></td>
-                <td><?=$proyecto['codigo_estado'];?></td>
+                <td class="border1 espacio05 " data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['id'];?></td>
+                <td class="border1 espacio05 " data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['nombre_proyecto'];?></td>
+                <td class="border1 espacio05 " data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['fecha_inicio'];?></td>
+                <td class="border1 espacio05 " data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['fecha_entrega'];?></td>
+                <td class="border1 espacio05 " data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$proyecto['codigo_estado'];?></td>
 
                  <!-- Falta agregar codigo_estado -->
                 <td>

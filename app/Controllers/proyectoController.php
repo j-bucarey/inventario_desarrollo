@@ -33,7 +33,7 @@ class proyectoController extends Controller{
             'nombre_proyecto'=>$this->request->getPost('nombre_proyecto'),
             'fecha_inicio'=>$this->request->getPost('fecha_inicio'),
             'fecha_entrega'=>$this->request->getPost('fecha_entrega'),
-            'codigo_estado'=>$this->request->getPost('codigo_estado'),
+            'codigo_estado'=>$this->request->getPost('codigo_estado')
 
         ];
 
