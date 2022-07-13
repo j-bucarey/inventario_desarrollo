@@ -54,6 +54,8 @@ class herramientasController extends Controller{
         return $this->response->redirect(site_url('herramientas'));
 
     }
+
+
 }
 
 ?>

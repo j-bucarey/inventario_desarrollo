@@ -22,7 +22,7 @@
   
   <body>
 
-  <p>Formulario</p>
+  <p>Formulario proyecto</p>
 
   <div class="card">
     <div class="card-body">
@@ -42,6 +42,10 @@
     <div class="form-group">
         <label for="stock">Fecha de entrega:</label>
         <input id="fecha_entrega" class="form-control" type="date" name="fecha_entrega">
+    </div>
+    <div class="form-group">
+        <label for="stock">Codigo estado:</label>
+        <input id="codigo_estado" class="form-control" type="number" name="codigo_estado">
     </div>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>

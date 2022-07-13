@@ -85,7 +85,7 @@ $routes->get('crear_proyectos', 'proyectoController::crear_proyectos');
 //Guardar
 $routes->post('guardar_proyecto', 'proyectoController::guardar_proyecto');
 //Eliminar
-$routes->get('borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
+$routes->get('/borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
 //Editar
 $routes->get('editar_proyecto/(:num)', 'proyectoController::editar_proyecto/$1');
 

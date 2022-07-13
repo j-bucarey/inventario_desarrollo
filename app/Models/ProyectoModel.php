@@ -8,7 +8,7 @@ class ProyectoModel extends Model
     protected $table      = 'proyecto';
     protected $primaryKey = 'id';
     //Campos que vamos a modificar
-    protected $allowedFields = ['nombre_proyecto','fecha_inicio','fecha_entrega'];
+    protected $allowedFields = ['nombre_proyecto','fecha_inicio','fecha_entrega','codigo_estado'];
 
  
    

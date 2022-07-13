@@ -49,10 +49,7 @@ class proyectoController extends Controller{
 
         $proyecto->where('id', $id)->delete($id);
 
-        return $this->response->redirect(site_url('crud_proyectos'));
-
-
-         
+        return $this->response->redirect(site_url('/proyectos'));
 
     }
 
