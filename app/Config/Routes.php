@@ -59,6 +59,10 @@ $routes->get('crearHerr', 'herramientasController::crearHerr');
 $routes->post('guardarH', 'herramientasController::guardarH');
 //Eliminar
 $routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
+//Editar
+$routes->get('editarHerr/(:num)','herramientasController::editarHerr/$1');
+//Actualizar
+$routes->post('actualizarHerr', 'herramientasController::actualizarHerr');
 
 
 //Ruta Usuario
