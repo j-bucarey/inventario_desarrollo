@@ -157,3 +157,118 @@ CRITICAL - 2022-07-13 10:54:17 --> Duplicate entry '0' for key 'codigo_estado'
 #10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+ERROR - 2022-07-13 11:36:17 --> Duplicate entry '0' for key 'codigo_estado'
+CRITICAL - 2022-07-13 11:36:17 --> Duplicate entry '0' for key 'codigo_estado'
+#0 C:\Xamp\htdocs\Inventario\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Xamp\htdocs\Inventario\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Xamp\htdocs\Inventario\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Xamp\htdocs\Inventario\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Xamp\htdocs\Inventario\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->guardar_proyecto()
+#9 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-13 11:39:59 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:13 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:14 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:15 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:16 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:18 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:19 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-07-13 11:42:20 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+#0 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2022-07-13 11:58:36 --> Duplicate entry '0' for key 'codigo_estado'
+CRITICAL - 2022-07-13 11:58:36 --> Duplicate entry '0' for key 'codigo_estado'
+#0 C:\Xamp\htdocs\Inventario\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Xamp\htdocs\Inventario\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Xamp\htdocs\Inventario\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Xamp\htdocs\Inventario\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Xamp\htdocs\Inventario\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->guardar_proyecto()
+#9 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-13 11:58:57 --> Duplicate entry '0' for key 'codigo_estado'
+CRITICAL - 2022-07-13 11:58:57 --> Duplicate entry '0' for key 'codigo_estado'
+#0 C:\Xamp\htdocs\Inventario\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Xamp\htdocs\Inventario\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Xamp\htdocs\Inventario\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Xamp\htdocs\Inventario\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Xamp\htdocs\Inventario\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->guardar_proyecto()
+#9 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-13 12:00:03 --> Duplicate entry '0' for key 'codigo_estado'
+CRITICAL - 2022-07-13 12:00:03 --> Duplicate entry '0' for key 'codigo_estado'
+#0 C:\Xamp\htdocs\Inventario\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Xamp\htdocs\Inventario\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Xamp\htdocs\Inventario\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Xamp\htdocs\Inventario\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Xamp\htdocs\Inventario\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(38): CodeIgniter\Model->insert(Array)
+#8 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->guardar_proyecto()
+#9 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-13 12:02:22 --> Duplicate entry '0' for key 'codigo_estado'
+CRITICAL - 2022-07-13 12:02:22 --> Duplicate entry '0' for key 'codigo_estado'
+#0 C:\Xamp\htdocs\Inventario\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Xamp\htdocs\Inventario\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Xamp\htdocs\Inventario\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\Xamp\htdocs\Inventario\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Xamp\htdocs\Inventario\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Xamp\htdocs\Inventario\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->guardar_proyecto()
+#9 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

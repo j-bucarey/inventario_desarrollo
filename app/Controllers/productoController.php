@@ -60,10 +60,6 @@ class productoController extends Controller{
         $producto= new Producto();
         $data['producto']=$producto->where('id', $id)->first();
 
-        // echo view('/homepage/new_start_aside');
-
-        // echo view('/Productos/productos'); 
-
         return view('Productos/editar', $data);
     }
 

@@ -16,42 +16,37 @@
    
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Crear</title>
+  <title>Editar</title>
 
   </head>
   
   <body>
 
-  <p></p>
+  <p>Formulario Crear</p>
 
     
 
   <div class="card">
     <div class="card-body">
-        <h5 class="card-title">Editar datos de proyecto</h5>
+        <h5 class="card-title">Editar datos de herramientas</h5>
         <p class="card-text">
 
-        <form method="post" action="<?=site_url('/actualizar_proyecto')?>" enctype="multipart/form-data">
+        <form method="post" action="<?=site_url('/actualizarHerr')?>" enctype="multipart/form-data">
     
-        <input type="hidden" name="id" value="<?=$proyecto['id']?>">
+        <input type="hidden" name="id" value="<?=$herramienta['id']?>">
     
         <div class="form-group">
-        <label for="nombre_proyecto">Nombre del proyecto:</label> 
-        <input id="nombre_proyecto" value="<?=$proyecto['nombre_proyecto']?>" class="form-control" type="text" name="nombre_proyecto">
+        <label for="nombre">Nombre:</label> 
+        <input id="nombre" value="<?=$herramienta['nombre']?>" class="form-control" type="text" name="nombre">
     </div>
     <div class="form-group">
-        <label for="stock">Fecha de inicio</label>
-        <input id="fecha_inicio" value="<?=$proyecto['fecha_inicio']?>" class="form-control" type="text" name="fecha_inicio">
+        <label for="stock">stock:</label>
+        <input id="stock" value="<?=$herramienta['codigo']?>" class="form-control" type="text" name="codigo">
     </div>
     <div class="form-group">
-        <label for="nombre">Fecha de entrega:</label>
-        <input id="fecha_entrega" value="<?=$proyecto['fecha_entrega']?>" class="form-control" type="text" name="fecha_entrega">
+        <label for="nombre">Código:</label>
+        <input id="nombre" value="<?=$herramienta['stock']?>" class="form-control" type="text" name="stock">
     </div>
-    <div class="form-group">
-        <label for="stock">Codigo estado:</label>
-        <input id="codigo_estado" value="<?=$proyecto['codigo_estado']?>"class="form-control" type="number" name="codigo_estado">
-    </div>
-    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 

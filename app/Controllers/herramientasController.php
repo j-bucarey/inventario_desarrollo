@@ -55,15 +55,15 @@ class herramientasController extends Controller{
 
     }
 
-    public function editar_herramienta($id=null){
-        // print_r($id);
+    public function editarHerr($id=null){
+        print_r($id);
         $herramienta= new Herramienta();
         $data['herramienta']=$herramienta->where('id', $id)->first();
 
-       
-        return view('Herramientas/editar_herramientas', $data);
+        return view('Herramientas/editarHerr', $data);
     }
-    public function actualizar_herramienta(){
+
+    public function actualizarHerr(){
         $herramienta= new Herramienta();
         $data=[
             'nombre'=>$this->request->getVar('nombre'),
