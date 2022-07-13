@@ -1,6 +1,7 @@
 
 <a href="crearHerr" class="btn btn-success">Crear Herramienta</a>
 <br/>
+<br/>
 
 <table class="table table-light">
     <thead class= "thead-light">
@@ -23,7 +24,7 @@
             <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$herramienta['codigo'];?></td>
             <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true"><?=$herramienta['stock'];?></td>
         <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-        <a href="<?=base_url('borrarHerr/'.$herramienta['id']);?>" class="btn btn-danger">Editar</a>
+        <a href="<?=base_url('editar_herramienta/'.$herramienta['id']);?>" class="btn btn-warning">Editar</a>
         <a href="<?=base_url('borrarHerr/'.$herramienta['id']);?>" class="btn btn-danger">Borrar</a>
         </td>
     </tr>

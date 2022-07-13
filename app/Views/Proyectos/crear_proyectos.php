@@ -36,7 +36,7 @@
         <input id="nombre_proyecto" class="form-control" type="text" name="nombre_proyecto">
     </div>
     <div class="form-group">
-        <label for="codigo">Fecha de inicio</label>
+        <label for="codigo">Fecha de inicio:</label>
         <input id="fecha_inicio" class="form-control" type="date" name="fecha_inicio">
     </div>
     <div class="form-group">
@@ -47,6 +47,7 @@
         <label for="stock">Codigo estado:</label>
         <input id="codigo_estado" class="form-control" type="number" name="codigo_estado">
     </div>
+    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 

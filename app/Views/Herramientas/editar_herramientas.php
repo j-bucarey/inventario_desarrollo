@@ -24,23 +24,28 @@
 
   <p>Formulario Crear</p>
 
+    
+
   <div class="card">
     <div class="card-body">
-        <h5 class="card-title">Ingresar datos de producto</h5>
+        <h5 class="card-title">Editar datos de producto</h5>
         <p class="card-text">
 
-        <form method="post" action="<?=site_url('/guardar')?>" enctype="multipart/form-data">
+        <form method="post" action="<?=site_url('/editar_herramienta')?>" enctype="multipart/form-data">
+    
+        <input type="hidden" name="id" value="<?=$herramienta['id']?>">
+    
+        <div class="form-group">
+        <label for="nombre">Nombre:</label> 
+        <input id="nombre" value="<?=$herramienta['nombre']?>" class="form-control" type="text" name="nombre">
+    </div>
     <div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input id="nombre" class="form-control" type="text" name="nombre">
+        <label for="codigo">Codigo</label>
+        <input id="codigo" value="<?=$herramienta['codigo']?>" class="form-control" type="text" name="codigo">
     </div>
     <div class="form-group">
         <label for="stock">Stock:</label>
-        <input id="stock" class="form-control" type="text" name="stock">
-    </div>
-    <div class="form-group">
-        <label for="nombre">Código:</label>
-        <input id="nombre" class="form-control" type="text" name="codigo">
+        <input id="stock" value="<?=$herramienta['stock']?>" class="form-control" type="text" name="stock">
     </div>
     <br>
     <button class="btn btn-success" type="submit">Guardar</button>
@@ -50,5 +55,3 @@
         </p>
     </div>
   </div>
-
-  

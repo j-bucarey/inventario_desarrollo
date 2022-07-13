@@ -45,6 +45,9 @@ $routes->post('guardar', 'productoController::guardar');
 //Eliminar
 $routes->get('borrar/(:num)', 'productoController::borrar/$1');
 //Editar
+$routes->get('editar/(:num)','productoController::editar/$1');
+//Actualizar
+$routes->post('actualizar', 'productoController::actualizar');
 
 
 //Rutas Tabla Herramienta
@@ -56,6 +59,12 @@ $routes->get('crearHerr', 'herramientasController::crearHerr');
 $routes->post('guardarH', 'herramientasController::guardarH');
 //Eliminar
 $routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
+//Editar
+$routes->get('editar_herramienta/(:num)', 'herramientasController::editar_herramienta/$1');
+//Actualizar
+$routes->post('actualizar_herramienta', 'herramientasController::actualizar_herramienta');
+
+
 
 //Ruta Usuario
 //Usuario
@@ -88,6 +97,8 @@ $routes->post('guardar_proyecto', 'proyectoController::guardar_proyecto');
 $routes->get('/borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
 //Editar
 $routes->get('editar_proyecto/(:num)', 'proyectoController::editar_proyecto/$1');
+//Actualizar
+$routes->post('actualizar_proyecto', 'proyectoController::actualizar_proyecto');
 
 
 

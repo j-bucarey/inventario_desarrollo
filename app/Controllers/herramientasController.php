@@ -55,6 +55,30 @@ class herramientasController extends Controller{
 
     }
 
+    public function editar_herramienta($id=null){
+        // print_r($id);
+        $herramienta= new Herramienta();
+        $data['herramienta']=$herramienta->where('id', $id)->first();
+
+       
+        return view('Herramientas/editar_herramientas', $data);
+    }
+    public function actualizar_herramienta(){
+        $herramienta= new Herramienta();
+        $data=[
+            'nombre'=>$this->request->getVar('nombre'),
+            'codigo'=>$this->request->getVar('codigo'),
+            'stock'=>$this->request->getVar('stock')
+        ];
+        $id= $this->request->getVar('id');
+
+
+        $herramienta->update($id,$data);
+
+        return $this->response->redirect(site_url('herramientas'));
+        
+        }
+
 
 }
 

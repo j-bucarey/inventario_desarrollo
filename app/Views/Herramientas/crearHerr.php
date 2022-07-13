@@ -42,6 +42,7 @@
         <label for="stock">Stock:</label>
         <input id="stock" class="form-control" type="text" name="stock">
     </div>
+    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 

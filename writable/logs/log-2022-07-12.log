@@ -161,6 +161,7 @@ CRITICAL - 2022-07-12 01:24:58 --> Column 'nombre_proyecto' cannot be null
 #10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+<<<<<<< HEAD
 CRITICAL - 2022-07-12 11:58:48 --> Undefined variable: proyectos
 #0 C:\Xamp\htdocs\Inventario\app\Views\Proyectos\crud_proyectos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Xamp\\htdocs\\...', 17, Array)
 #1 C:\Xamp\htdocs\Inventario\system\View\View.php(210): include('C:\\Xamp\\htdocs\\...')
@@ -515,3 +516,228 @@ CRITICAL - 2022-07-12 12:55:49 --> Duplicate entry '0' for key 'codigo_estado'
 #10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+=======
+CRITICAL - 2022-07-12 12:19:51 --> syntax error, unexpected token "}", expecting "("
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:33:32 --> Invalid file: productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(60): view('productos/edita...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:33:54 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(60): view('Productos/edita...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:33:55 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(60): view('Productos/edita...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:33:58 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(60): view('Productos/edita...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:34:07 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(60): view('Productos/edita...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('142')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:47:02 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 12:47:54 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(65): view('Productos/edita...', Array)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:48:04 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...', Array)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 12:48:25 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 12:48:29 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 12:48:29 --> Undefined variable $productos
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\crud_productos.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/crud_...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/crud_...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 12:48:42 --> Invalid file: Productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Productos/edita...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...', Array)
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 19:56:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 19:59:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('128')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 20:06:56 --> Invalid file: /Productos/productos/editar.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Productos/prod...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Productos/prod...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(65): view('/Productos/prod...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 20:08:44 --> Invalid file: /homepage/new_start_aside_crear.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/homepage/new_s...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/homepage/new_s...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(63): view('/homepage/new_s...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 20:08:46 --> Invalid file: /homepage/new_start_aside_crear.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/homepage/new_s...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/homepage/new_s...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(63): view('/homepage/new_s...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-12 20:23:15 --> Undefined variable $producto
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 20:23:20 --> Undefined variable $producto
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 20:27:42 --> Undefined variable $producto
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('1')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 20:49:57 --> Undefined variable $producto
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Productos\editar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Productos/edita...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\productoController.php(67): view('Productos/edita...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\productoController->editar('5')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\productoController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-12 21:27:50 --> syntax error, unexpected variable "$routes"
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+>>>>>>> a6f6f0addfe1cced9e42b7c89d9b665cf2fad035

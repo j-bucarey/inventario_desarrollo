@@ -19,7 +19,7 @@
                 <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">stock</td>
                 <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">codigo</td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-            <a href="#" class="btn btn-info">Editar</a>
+            <a href="#" class="btn btn-warning">Editar</a>
             <a href="#" class="btn btn-danger">Eliminar</a>
             </td>
         </tbody>

@@ -16,33 +16,42 @@
    
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Crear formulario</title>
+  <title>Crear</title>
 
   </head>
   
   <body>
 
-  <p>Formulario</p>
+  <p></p>
+
+    
 
   <div class="card">
     <div class="card-body">
-        <h5 class="card-title">Ingresar datos del proyecto</h5>
+        <h5 class="card-title">Editar datos de proyecto</h5>
         <p class="card-text">
 
-        <form method="post" action="<?=site_url('/guardar_proyecto')?>" enctype="multipart/form-data">
-
-    <div class="form-group">
-        <label for="nombre">Nombre del proyecto:</label>
-        <input id="nombre_proyecto" class="form-control" type="text" name="nombre_proyecto">
+        <form method="post" action="<?=site_url('/actualizar_proyecto')?>" enctype="multipart/form-data">
+    
+        <input type="hidden" name="id" value="<?=$proyecto['id']?>">
+    
+        <div class="form-group">
+        <label for="nombre">Nombre del proyecto:</label> 
+        <input id="nombre_proyecto" value="<?=$proyecto['nombre_proyecto']?>" class="form-control" type="text" name="nombre_proyecto">
     </div>
     <div class="form-group">
-        <label for="codigo">Fecha de inicio</label>
-        <input id="fecha_inicio" class="form-control" type="date" name="fecha_inicio">
+        <label for="stock">Fecha de inicio</label>
+        <input id="fecha_inicio" value="<?=$proyecto['fecha_inicio']?>" class="form-control" type="text" name="fecha_inicio">
     </div>
     <div class="form-group">
-        <label for="stock">Fecha de entrega:</label>
-        <input id="fecha_entrega" class="form-control" type="date" name="fecha_entrega">
+        <label for="nombre">Fecha de entrega:</label>
+        <input id="fecha_entrega" value="<?=$proyecto['fecha_entrega']?>" class="form-control" type="text" name="fecha_entrega">
     </div>
+    <div class="form-group">
+        <label for="stock">Codigo estado:</label>
+        <input id="codigo_estado" value="<?=$proyecto['codigo_estado']?>"class="form-control" type="number" name="codigo_estado">
+    </div>
+    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 

@@ -1,5 +1,6 @@
 <a href="crear_proyectos" class="btn btn-success">Crear Nuevo Proyecto</a>
 <br/>
+<br/>
 
     <table class="no-table centrar">
         <thead>
@@ -23,7 +24,7 @@
                 <td><?=$proyecto['fecha_inicio'];?></td>
                 <td><?=$proyecto['fecha_entrega'];?></td>
                 <td><?=$proyecto['codigo_estado'];?></td>
-                
+
                  <!-- Falta agregar codigo_estado -->
                 <td>
                     <a href="<?=base_url('index.php/editar_proyecto/'.$proyecto['id']);?>" class="btn btn-warning" type="button">Editar</a>
