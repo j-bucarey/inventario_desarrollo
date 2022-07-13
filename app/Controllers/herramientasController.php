@@ -31,8 +31,6 @@ class herramientasController extends Controller{
 
          $herramienta= new Herramienta();
 
-         
-            
              $data=[
                  'nombre'=>$this->request->getPost('nombre'),
                  'codigo'=>$this->request->getPost('codigo'),
@@ -75,7 +73,7 @@ class herramientasController extends Controller{
 
         $herramienta->update($id,$data);
 
-        return $this->response->redirect(site_url('herramienta'));
+        return $this->response->redirect(site_url('herramientas'));
         
         }
 }
