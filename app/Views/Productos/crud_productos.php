@@ -1,6 +1,7 @@
 
-<a href="crear"class="btn btn-success">Nuevo producto</a>
-
+<a href="<?=base_url('crear')?>"class="btn btn-success">Nuevo producto</a>
+<br/>
+<br/>
     <table class="no-table centrar">
         <thead>
             <tr class="centrar-texto fondo-ws">
@@ -22,7 +23,7 @@
                 <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['stock'];?></td>
                 <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$producto['codigo'];?></td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-            <a href="#" class="btn btn-info">Editar</a>
+            <a href="<?=base_url('editar/'.$producto['id']);?>" class="btn btn-info">Editar</a>
             <a href="<?=base_url('borrar/'.$producto['id']);?>" class="btn btn-danger">Eliminar</a>
             </td>
         </tr>

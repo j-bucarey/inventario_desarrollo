@@ -54,7 +54,36 @@ class productoController extends Controller{
         return $this->response->redirect(site_url('productos'));
 
     }
-}
+
+    public function editar($id=null){
+        print_r($id);
+        $producto= new Producto();
+        $data['producto']=$producto->where('id', $id)->first();
+
+        // echo view('/homepage/new_start_aside');
+
+        // echo view('/Productos/productos'); 
+
+        return view('Productos/editar', $data);
+    }
+
+    public function actualizar(){
+        $producto= new Producto();
+        $data=[
+            'nombre'=>$this->request->getVar('nombre'),
+            'stock'=>$this->request->getVar('stock'),
+            'codigo'=>$this->request->getVar('codigo')
+        ];
+        $id= $this->request->getVar('id');
+
+
+        $producto->update($id,$data);
+
+        return $this->response->redirect(site_url('productos'));
+        
+        }
+
+    }
 
 ?>
 
