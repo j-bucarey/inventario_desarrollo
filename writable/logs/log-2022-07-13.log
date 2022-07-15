@@ -272,3 +272,14 @@ CRITICAL - 2022-07-13 12:02:22 --> Duplicate entry '0' for key 'codigo_estado'
 #10 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+CRITICAL - 2022-07-13 21:15:27 --> Undefined index: detalle_proyecto
+#0 C:\Xamp\htdocs\Inventario\app\Views\Proyectos\crud_proyectos.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Xamp\\htdocs\\...', 26, Array)
+#1 C:\Xamp\htdocs\Inventario\system\View\View.php(210): include('C:\\Xamp\\htdocs\\...')
+#2 C:\Xamp\htdocs\Inventario\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Xamp\htdocs\Inventario\system\Common.php(1089): CodeIgniter\View\View->render('Proyectos/crud_...', Array, true)
+#4 C:\Xamp\htdocs\Inventario\app\Controllers\proyectoController.php(18): view('Proyectos/crud_...', Array)
+#5 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(832): App\Controllers\proyectoController->proyectos()
+#6 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proyectoController))
+#7 C:\Xamp\htdocs\Inventario\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Xamp\htdocs\Inventario\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

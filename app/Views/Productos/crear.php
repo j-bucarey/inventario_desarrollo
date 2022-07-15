@@ -22,9 +22,7 @@
   
   <body>
 
-  <p>Formulario Crear</p>
-
-  <div class="card">
+  <div class="card text-center">
     <div class="card-body">
         <h5 class="card-title">Ingresar datos de producto</h5>
         <p class="card-text">

@@ -100,6 +100,11 @@ $routes->get('editar_proyecto/(:num)', 'proyectoController::editar_proyecto/$1')
 //Actualizar
 $routes->post('actualizar_proyecto', 'proyectoController::actualizar_proyecto');
 
+//Eliminar metodo 2 para modal
+// $routes->delete('/borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
+
+
+
 
 
 
