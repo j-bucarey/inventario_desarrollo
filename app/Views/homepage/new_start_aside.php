@@ -6,12 +6,12 @@
       </div>
       <ul class="nav-links">
         <li>
-          <a href="bodega">
+          <a href="bodegas">
             <i class='bx bx-grid-alt'></i>
             <span class="link_name">Gestion de Bodega</span>
           </a>
           <ul class="sub-menu blank">
-            <li><a class="link_name" href="bodega">Gestion de Bodega</a></li>
+            <li><a class="link_name" href="bodegas">Gestion de Bodega</a></li>
           </ul>
         </li>
         <li>

@@ -1,5 +1,8 @@
+<a href="crear_bodega" class="btn btn-success">Crear Bodega</a>
+<br/>
+<br/>
 
-    <table class="no-table centrar">
+<table class="no-table centrar">
         <thead>
             <tr class="centrar-texto fondo-ws">
                 <td class="borde1 espacio05" >#</td>
@@ -10,25 +13,21 @@
             </tr>
         </thead>
 
-        
+
 
         <tbody class="centrar-texto">
-
-        <?php foreach($bodegas as $bodega): ?>
-
         <tr class="fila">
-                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true"><?=$bodega['id'];?></td>
-                <td class="borde1 espacio05" title="cabecera2" contenteditable="true"><?=$bodega['nombre'];?></td>
-                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$bodega['stock'];?></td>
-                <td class="borde1 espacio05" title="cabecera3" contenteditable="true"><?=$bodega['codigo'];?></td>
+                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera1" contenteditable="true">id</td>
+                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera2" contenteditable="true">nombre</td>
+                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">stock</td>
+                <td class="borde1 espacio05" data-tipo="input" data-title="cabecera3" contenteditable="true">codigo</td>
             <td class="borde1 espacio05" data-tipo="input" data-title="opciones">
-            <a href="<?=base_url('editarBod/'.$bodega['id']);?>" class="btn btn-info">Editar</a>
-            <a href="<?=base_url('borrarBod/'.$bodega['id']);?>" class="btn btn-danger">Eliminar</a>
+            <a href="#" class="btn btn-warning">Editar</a>
+            <a href="#" class="btn btn-danger">Eliminar</a>
             </td>
-            <tr>
-            <?php endforeach; ?>
         </tbody>
     </table>
 
 </section>
+</div>
 </div>

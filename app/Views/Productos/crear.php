@@ -22,7 +22,11 @@
   
   <body>
 
-  <div class="card text-center">
+  <br>
+<br>
+<br>
+
+  <div class="container card text-center col-6">
     <div class="card-body">
         <h5 class="card-title">Ingresar datos de producto</h5>
         <p class="card-text">
@@ -30,15 +34,15 @@
         <form method="post" action="<?=site_url('/guardar')?>" enctype="multipart/form-data">
     <div class="form-group">
         <label for="nombre">Nombre:</label>
-        <input id="nombre" class="form-control" type="text" name="nombre">
+        <input id="nombre" class="form-control" type="text" name="nombre" required>
     </div>
     <div class="form-group">
         <label for="stock">Stock:</label>
-        <input id="stock" class="form-control" type="text" name="stock">
+        <input id="stock" class="form-control" type="text" name="stock" required>
     </div>
     <div class="form-group">
         <label for="nombre">Código:</label>
-        <input id="nombre" class="form-control" type="text" name="codigo">
+        <input id="nombre" class="form-control" type="text" name="codigo" required>
     </div>
     <br>
     <button class="btn btn-success" type="submit">Guardar</button>

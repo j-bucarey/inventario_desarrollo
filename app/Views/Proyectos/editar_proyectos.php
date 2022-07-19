@@ -22,11 +22,12 @@
   
   <body>
 
-  <p></p>
-
+  <br>
+  <br>
+  <br>
     
 
-  <div class="card">
+  <div class="container card text-center col-6">
     <div class="card-body">
         <h5 class="card-title">Editar datos de proyecto</h5>
         <p class="card-text">

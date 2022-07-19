@@ -60,9 +60,9 @@ $routes->post('guardarH', 'herramientasController::guardarH');
 //Eliminar
 $routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
 //Editar
-$routes->get('editar_herramienta/(:num)', 'herramientasController::editar_herramienta/$1');
+$routes->get('editarHerr/(:num)', 'herramientasController::editarHerr/$1');
 //Actualizar
-$routes->post('actualizar_herramienta', 'herramientasController::actualizar_herramienta');
+$routes->post('actualizarHerr', 'herramientasController::actualizarHerr');
 
 
 
@@ -76,14 +76,17 @@ $routes->add('/registro', 'registrarController::registro');
 
 //Rutas Tabla Bodega
 //Bodega
-$routes->add('/bodega', 'bodegaController::bodega');
+$routes->add('/bodegas', 'bodegaController::bodegas');
 //Crear
-$routes->get('crear_bodega', 'herramientasController::crear_bodega');
+$routes->get('crear_bodega', 'bodegaController::crear_bodega');
 //Guardar
-$routes->post('guardar_bodega', 'herramientasController::guardar_bodega');
+$routes->post('guardar_bodega', 'bodegaController::guardar_bodega');
 //Eliminar
-$routes->get('borrar_bodega/(:num)', 'herramientasController::borrar_bodega/$1');
+$routes->get('borrar_bodega/(:num)', 'bodegaController::borrar_bodega/$1');
 //Editar
+$routes->get('editar_bodega/(:num)', 'bodegaController::editar_bodega/$1');
+//Actualizar
+$routes->post('actualizar_bodega', 'bodegaController::actualizar_bodega');
 
 
 

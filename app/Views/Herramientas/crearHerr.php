@@ -22,9 +22,11 @@
   
   <body>
 
-  <p>Formulario</p>
+<br>
+<br>
+<br>
 
-  <div class="card">
+  <div class="container card text-center col-6">
     <div class="card-body">
         <h5 class="card-title">Formulario Herramienta</h5>
         <p class="card-text">
@@ -32,15 +34,15 @@
         <form method="post" action="<?=site_url('/guardarH')?>" enctype="multipart/form-data">
     <div class="form-group">
         <label for="nombre">Nombre:</label>
-        <input id="nombre" class="form-control" type="text" name="nombre">
+        <input id="nombre" class="form-control" type="text" name="nombre" required>
     </div>
     <div class="form-group">
         <label for="codigo">Código:</label>
-        <input id="codigo" class="form-control" type="text" name="codigo">
+        <input id="codigo" class="form-control" type="text" name="codigo" required>
     </div>
     <div class="form-group">
         <label for="stock">Stock:</label>
-        <input id="stock" class="form-control" type="text" name="stock">
+        <input id="stock" class="form-control" type="text" name="stock" required>
     </div>
     <br>
     <button class="btn btn-success" type="submit">Guardar</button>

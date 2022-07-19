@@ -56,7 +56,6 @@ class productoController extends Controller{
     }
 
     public function editar($id=null){
-        print_r($id);
         $producto= new Producto();
         $data['producto']=$producto->where('id', $id)->first();
 

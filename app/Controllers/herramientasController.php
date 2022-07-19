@@ -54,7 +54,6 @@ class herramientasController extends Controller{
     }
 
     public function editarHerr($id=null){
-        print_r($id);
         $herramienta= new Herramienta();
         $data['herramienta']=$herramienta->where('id', $id)->first();
 

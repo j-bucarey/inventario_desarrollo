@@ -40,3 +40,222 @@ CRITICAL - 2022-07-18 19:13:13 --> Undefined array key "nombre_proyecto"
 #7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-07-18 19:26:02 --> Invalid file: /Bodega/bodega.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bodega/bodega....')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodega/bodega', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(12): view('/Bodega/bodega')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodega()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 19:35:46 --> Invalid file: /Bodega/bodega.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bodega/bodega....')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodega/bodega', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(12): view('/Bodega/bodega')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodega()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 19:35:47 --> Invalid file: /Bodega/bodega.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bodega/bodega....')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodega/bodega', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(12): view('/Bodega/bodega')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodega()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 19:37:20 --> Invalid file: /Bodegas/bodega.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bodegas/bodega...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/bodega', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(12): view('/Bodegas/bodega')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodega()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 19:37:21 --> Invalid file: /Bodegas/bodega.php
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Bodegas/bodega...')
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/bodega', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(12): view('/Bodegas/bodega')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodega()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 21:12:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Herramientas\editarHerr.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Herramientas/ed...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\herramientasController.php(61): view('Herramientas/ed...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\herramientasController->editarHerr('7')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\herramientasController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:12:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Herramientas\editarHerr.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Herramientas/ed...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\herramientasController.php(61): view('Herramientas/ed...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\herramientasController->editarHerr('7')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\herramientasController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:12:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Herramientas\editarHerr.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Herramientas/ed...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\herramientasController.php(61): view('Herramientas/ed...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\herramientasController->editarHerr('7')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\herramientasController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:13:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Herramientas\editarHerr.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Herramientas/ed...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\herramientasController.php(61): view('Herramientas/ed...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\herramientasController->editarHerr('7')
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\herramientasController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:27:14 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(14): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:33:59 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(14): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:35:39 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(14): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:38:37 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:38:39 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:39:10 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#2 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#4 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-18 21:39:21 --> Undefined variable $bodega
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:40:30 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:43:13 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:47:12 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('/Bodegas/crud_b...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(17): view('/Bodegas/crud_b...')
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:55:21 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Bodegas/crud_bo...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(18): view('Bodegas/crud_bo...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-18 21:57:23 --> Undefined variable $bodegas
+#0 C:\xampp\htdocs\inventario_desarrollo-main\app\Views\Bodegas\crud_bodega.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inventario_desarrollo-main\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inventario_desarrollo-main\system\Common.php(1089): CodeIgniter\View\View->render('Bodegas/crud_bo...', Array, true)
+#4 C:\xampp\htdocs\inventario_desarrollo-main\app\Controllers\bodegaController.php(18): view('Bodegas/crud_bo...', Array)
+#5 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(832): App\Controllers\bodegaController->bodegas()
+#6 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bodegaController))
+#7 C:\xampp\htdocs\inventario_desarrollo-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inventario_desarrollo-main\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -34,7 +34,7 @@
                         </td>
                         <!-- Boton detalles del pryecto -->
                         <td class="borde1 espacio05" data-tipo="input" data-title="Detalles">
-                            <a href="<?=base_url('index.php/editar_proyecto/'.$proyecto['id']);?>" class="btn btn-success" type="button">Detalle Proyecto</a>
+                            <a href="#" class="btn btn-success" type="button">Detalle Proyecto</a>
                         </td>
                 </tr>
             <?php endforeach; ?>
