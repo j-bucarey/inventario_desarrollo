@@ -32,7 +32,9 @@ class proyectoController extends Controller{
         $data=[
             'nombre_proyecto'=>$this->request->getPost('nombre_proyecto'),
             'fecha_inicio'=>$this->request->getPost('fecha_inicio'),
-            'fecha_entrega'=>$this->request->getPost('fecha_entrega')
+            'fecha_entrega'=>$this->request->getPost('fecha_entrega'),
+            'codigo_estado'=>$this->request->getPost('codigo_estado')
+
         ];
 
         $proyecto->insert($data);
@@ -49,25 +51,34 @@ class proyectoController extends Controller{
 
         $proyecto->where('id', $id)->delete($id);
 
-        return $this->response->redirect(site_url('crud_proyectos'));
-
-
-         
+        return $this->response->redirect(site_url('/proyectos'));
 
     }
 
     public function editar_proyecto($id=null){
-
-
-        print_r($id);
-        return view('Proyectos/crud_proyectos');
-
+        // print_r($id);
         $proyecto= new ProyectoModel();
+        $data['proyecto']=$proyecto->where('id', $id)->first();
 
-        $dataproyecto=$proyecto->where('id',$id)->first();
-
-        return view ('Proyectos/editar_proyectos', $dataproyecto);
+       
+        return view('Proyectos/editar_proyectos', $data);
     }
+    public function actualizar_proyecto(){
+        $proyecto= new ProyectoModel();
+        $data=[
+            'nombre_proyecto'=>$this->request->getVar('nombre_proyecto'),
+            'fecha_inicio'=>$this->request->getVar('fecha_inicio'),
+            'fecha_entrega'=>$this->request->getVar('fecha_entrega'),
+            'codigo_estado'=>$this->request->getVar('codigo_estado')
+        ];
+        $id= $this->request->getVar('id');
+
+
+        $proyecto->update($id,$data);
+
+        return $this->response->redirect(site_url('proyectos'));
+        
+        }
 
     
 }

@@ -60,9 +60,10 @@ $routes->post('guardarH', 'herramientasController::guardarH');
 //Eliminar
 $routes->get('borrarHerr/(:num)', 'herramientasController::borrarHerr/$1');
 //Editar
-$routes->get('editarHerr/(:num)','herramientasController::editarHerr/$1');
+$routes->get('editar_herramienta/(:num)', 'herramientasController::editar_herramienta/$1');
 //Actualizar
-$routes->post('actualizarHerr', 'herramientasController::actualizarHerr');
+$routes->post('actualizar_herramienta', 'herramientasController::actualizar_herramienta');
+
 
 
 //Ruta Usuario
@@ -93,9 +94,16 @@ $routes->get('crear_proyectos', 'proyectoController::crear_proyectos');
 //Guardar
 $routes->post('guardar_proyecto', 'proyectoController::guardar_proyecto');
 //Eliminar
-$routes->get('borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
+$routes->get('/borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
 //Editar
 $routes->get('editar_proyecto/(:num)', 'proyectoController::editar_proyecto/$1');
+//Actualizar
+$routes->post('actualizar_proyecto', 'proyectoController::actualizar_proyecto');
+
+//Eliminar metodo 2 para modal
+// $routes->delete('/borrar_proyecto/(:num)', 'proyectoController::borrar_proyecto/$1');
+
+
 
 
 

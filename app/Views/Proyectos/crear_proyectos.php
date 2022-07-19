@@ -22,27 +22,52 @@
   
   <body>
 
-  <p>Formulario</p>
 
-  <div class="card">
+
+<br>
+<br>
+<br>
+
+  <div class="container card text-center col-6">
     <div class="card-body">
         <h5 class="card-title">Ingresar datos del proyecto</h5>
         <p class="card-text">
 
         <form method="post" action="<?=site_url('/guardar_proyecto')?>" enctype="multipart/form-data">
+ 
 
-    <div class="form-group">
+    <div class="row ">
         <label for="nombre">Nombre del proyecto:</label>
-        <input id="nombre_proyecto" class="form-control" type="text" name="nombre_proyecto">
+        <input id="nombre_proyecto" class="form-control" type="text" name="nombre_proyecto" required>
+            <div class="invalid-feedback">
+                Ingresar un nombre.
+            </div>
     </div>
-    <div class="form-group">
-        <label for="codigo">Fecha de inicio</label>
-        <input id="fecha_inicio" class="form-control" type="date" name="fecha_inicio">
+
+    <div class="row">
+        <label for="codigo">Fecha de inicio:</label>
+        <input id="fecha_inicio" class="form-control" type="date" name="fecha_inicio" required>
+            <div class="invalid-feedback">
+                Ingresar fecha de inicio.
+            </div>
     </div>
-    <div class="form-group">
+
+    <div class="row">
         <label for="stock">Fecha de entrega:</label>
-        <input id="fecha_entrega" class="form-control" type="date" name="fecha_entrega">
+        <input id="fecha_entrega" class="form-control" type="date" name="fecha_entrega" required>
+        <div class="invalid-feedback">
+            Ingresar fecha de entrega
+        </div>
     </div>
+
+    <div class="row">
+        <label for="stock">Codigo estado:</label>
+        <input id="codigo_estado" class="form-control" type="number" name="codigo_estado" required>
+        <div class="invalid-feedback">
+            Ingresar Codigo estado
+        </div>
+    </div>
+    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 

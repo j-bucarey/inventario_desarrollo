@@ -22,9 +22,7 @@
   
   <body>
 
-  <p>Formulario Crear</p>
-
-  <div class="card">
+  <div class="card text-center">
     <div class="card-body">
         <h5 class="card-title">Ingresar datos de producto</h5>
         <p class="card-text">
@@ -35,13 +33,14 @@
         <input id="nombre" class="form-control" type="text" name="nombre">
     </div>
     <div class="form-group">
-        <label for="stock">stock:</label>
+        <label for="stock">Stock:</label>
         <input id="stock" class="form-control" type="text" name="stock">
     </div>
     <div class="form-group">
         <label for="nombre">Código:</label>
         <input id="nombre" class="form-control" type="text" name="codigo">
     </div>
+    <br>
     <button class="btn btn-success" type="submit">Guardar</button>
   </form>
 
